@@ -29,6 +29,7 @@ ALLOWED_HOSTS = [
     '8000-lewismdillo-djangotutor-7he50a6207e.ws-eu101.gitpod.io',
 ]
 
+CSRF_TRUSTED_ORIGINS = ['https://8000-lewismdillo-djangotutor-7he50a6207e.ws-eu101.gitpod.io']
 
 # Application definition
 
