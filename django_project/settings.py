@@ -29,12 +29,17 @@ ALLOWED_HOSTS = [
     '8000-lewismdillo-djangotutor-7he50a6207e.ws-eu101.gitpod.io',
 ]
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-lewismdillo-djangotutor-7he50a6207e.ws-eu101.gitpod.io']
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-lewismdillo-djangotutor-7he50a6207e.ws-eu101.gitpod.io'
+    ]
 
 # Application definition
 
 INSTALLED_APPS = [
     'blog.apps.BlogConfig',
+    'users.apps.UsersConfig',
+    'crispy_forms',
+    'crispy_bootstrap4',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -125,3 +130,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
+
+CRISPY_TEMPLATE_PACK = "bootstrap4"
