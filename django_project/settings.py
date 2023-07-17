@@ -31,11 +31,11 @@ SECRET_KEY = 'django-insecure-2vjy^%4(%u51s9*^fb*2mxv076@frj444#u2n98!ji(eiayo8b
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '8000-lewismdillo-djangotutor-7he50a6207e.ws-eu101.gitpod.io',
+    '8000-lewismdillo-djangotutor-7i4dehyqas4.ws-eu101.gitpod.io',
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://8000-lewismdillo-djangotutor-7he50a6207e.ws-eu101.gitpod.io'
+    'https://8000-lewismdillo-djangotutor-7i4dehyqas4.ws-eu101.gitpod.io',
     ]
 
 # Application definition
